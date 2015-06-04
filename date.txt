@@ -1,0 +1,2 @@
+#This file contains the date and length of the workshop.
+12/06/2006|2

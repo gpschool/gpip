@@ -1,0 +1,10 @@
+Log Gaussian processes (LGP) are an attractive manner to construct
+intensity surfaces for the purposes of spatial epidemiology. The
+intensity surfaces are naturally smoothed by placing a GP prior over
+the relative log Poisson rate. In this work a fully independent
+training conditional (FITC) sparse approximation is used to speed up
+GP computations. The sampling of the latent values is sped up with
+transformations taking into account the approximate conditional
+posterior precision.
+
+<p>Joint work with Jarno Vanhatalo.

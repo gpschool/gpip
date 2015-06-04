@@ -1,0 +1,60 @@
+<p>Unfortunately there is no accommodation on site at Bletchley Park. 
+
+<p>We will run a coach service from the following hotels in the morning and the evening. A map of their location can be found with Google Search using the button below.
+
+<p>Please note that it is <i>your responsibility to reserve and pay for accommodation</i>.
+
+<p>If you cannot book into any of these hotels, please let us know and we can try and add more to the list for the coach service.
+
+<h3>Breaking News</h3>
+
+<p>It appears we are clashing with both the British Grand Prix (9th-11th June) and a Bon Jovi Concert (10th-11th June). The result is that some hotels are filling up faster than we have anticipated. 
+
+<p>The only hotel that has good availability on the 11th out of the three we originally suggested is the Hilton. However, it is more expensive than the other two options. One suggested plan of action is to book your first night in the Hilton and the following two nights in one of the other hotels. 
+
+<p> We'd rather avoid adding further hotels to the coach route if we can, as the coaches cannot start picking people up before 9:00 am. Please get in contact though if you have a problem with all this.
+
+<h3>Hotels in the Area</h3>
+<hr>
+<table>
+  <tr>
+     <td><b>Campanile Hotel</b></td>
+     <td>+44 (1908) 649819</td>
+     <td>£51.95 single occupancy<br>£58.20 double occupancy.<br>Breakfast included.</td>
+  </tr>
+  <tr>
+     <td colspan=3><i>Mention you are attending the Gaussian Processes in Practice Workshop</i><td>
+  </tr>
+  <tr>
+     <td colspan=3><b>Now full for the night of 11th June.</b><td>
+  </tr>
+</table>
+<hr>
+<table>
+  <tr>
+     <td><b>Premier Travel Inn, Bletcham Way</b></td>
+     <td>+44 (870) 9906558</td>
+     <td>£51 weekend<br>£56 weekday<br>single or double occupancy.</td>
+  </tr>
+  <tr>
+     <td colspan=3><i>Breakfast not included. No special rate for attendees.</i></td>
+  </tr>
+  <tr>
+     <td colspan=3><b>Now full for the night of 11th June.</b></td>
+  </tr>
+</table>
+<hr>
+<table>
+  <tr>
+     <td><b><a href="http://www.hilton.co.uk/sitehomepage">Hilton National Hotel</a></b></td>
+     <td>+44 (1908) 694433</td>
+     <td>£110 single occupancy</td>
+  </tr>
+  <tr>
+     <td colspan=3><i>Mention corporate code UNI120606 to get the rate.</i></td>
+  </tr>
+  <tr>
+     <td colspan=3><b>Good availability for all nights.</b></td>
+  </tr>
+</table>
+<hr>

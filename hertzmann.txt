@@ -1,0 +1,14 @@
+Computer animation is an extraordinarily labor-intensive process;
+obtaining high-quality motion models could make the process faster and
+easier.  I will describe methods for learning models of human poses
+and motion from motion capture data.  I will begin with a pose model
+based on the Gaussian Process Latent Variable Model (GPLVM), and the
+application of this model to Inverse Kinematics posing.  I will then
+describe the Gaussian Process Dynamical Model (GPDM) for modeling
+motion dynamics.  I may also mention a few other extensions to the
+GPLVM for modeling motion data.  I will discuss the properties of
+these models (both good and bad) and potential directions for future
+work.
+
+<p>Joint work with David Fleet, Keith Grochow, Steven L. Martin, Zoran Popovic,
+Jack Wang

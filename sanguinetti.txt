@@ -1,0 +1,11 @@
+Inferring the concentration of transcription factors' proteins from
+the expression levels of target genes is a very active area of
+research in computational biology. Usually, the dynamics of the gene
+expression levels are modelled using differential equations where the
+transcription factor protein concentrations are treated as parameters,
+subsequently estimated using MCMC. We show how this inference problem
+can be solved more elegantly by placing a GP prior over the latent
+functions, obtaining comparable results to the standard MCMC approach
+in a fraction of the time.
+
+<p>Joint work with Neil Lawrence and Magnus Rattray.

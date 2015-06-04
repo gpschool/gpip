@@ -1,0 +1,20 @@
+
+
+
+Gaussian Process
+Basics
+
+
+David MacKay
+
+
+
+Department of Physics, University of Cambridge
+
+http://www.inference.phy.cam.ac.uk/mackay/
+
+f9 then f11
+
+ Gaussian Processes in Practice   12-13 June 2006  
+
+

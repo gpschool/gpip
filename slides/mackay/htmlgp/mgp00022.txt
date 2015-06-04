@@ -1,0 +1,14 @@
+
+A Gaussian process
+
+
+
+
+
+
+
+
+
+A Gaussian process is a collection of random variables with the property that the joint distribution of any finite subset is a Gaussian
+
+

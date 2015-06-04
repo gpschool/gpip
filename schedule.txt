@@ -1,0 +1,37 @@
+# abbreviation|Speaker Name|Association|web-page|talk title|slides|length
+day|1|9:00
+coach1||||Coach Pick up from Hilton, Campanile and Caldecott Arms. Be ready at 9:00.|||30
+welcome|Neil Lawrence||http://www.dcs.shef.ac.uk/~neil|Welcome|||15
+mackay|David MacKay|Department of Physics, University of Cambridge, U.K.|http://www.inference.phy.cam.ac.uk/mackay/|Gaussian Process Basics|none|mackay.txt|60|mackay.html
+coffee1||||Coffee Break|||30
+rasmussen|Carl Rasmussen|Max-Planck Institute, Tuebingen, Germany|http://www.kyb.tuebingen.mpg.de/~carl|Interpreting Covariance Functions & Classification|none||60|rasmussen.pdf
+spotlight1||||Spotlights of Poster Presentations|none|spotlight1.txt|20
+lunch1||||Lunch Break|none||55
+williams|Chris Williams|School of Informatics, University of Edinburgh, U.K.|http://www.dai.ed.ac.uk/homes/ckiw/|Eigenfunctions & Approximation Methods|none||60|williams.pdf
+snelson|Edward Snelson|Gatsby Computational Neuroscience Unit, University College London, U.K.|http://www.gatsby.ucl.ac.uk/~snelson/|Flexible and efficient Gaussian process models|none|snelson.txt|30|snelson.pdf
+wernisch|Lorenz Wernisch|School of Crystallography, Birkbeck College, U.K.|http://people.cryst.bbk.ac.uk/~wernisch/|Analysing Gene Expression Data Using Gaussian Processes|wernisch.pdf|wernisch.txt|30|wernisch.pdf
+tea1||||Tea Break|none||30
+sanguinetti|Guido Sanguinetti|Department of Computer Science, University of Sheffield, U.K.|http://www.dcs.shef.ac.uk/~guido|Gaussian Process Model for Inferring the Regulatory Activity of Transcription Factor Proteins|sanguinetti.pdf|sanguinetti.txt|30|sanguinetti.ppt
+spotlight2||||Spotlights of Poster Presentations|none|spotlight2.txt|15
+discussion1|Discussion Panel||http://www.dcs.shef.ac.uk/ml/gpip/discussionpanel.html|Discussion Time|none||30|discussion1.html
+day|1|17:30
+tour||||Tour of Bletchley Park||tour.txt|90
+day|1|19:30
+dinner||||Dinner||menu.txt|120
+coach2||||Coach back to hotels.|||15
+day|2|9:00
+coach3||||Coach Pick up from Hilton, Campanile and Premier Travel Inn (Caldecott Arms). Be ready at 9:00.|||30
+hertzmann|Aaron Hertzmann|Department of Computer Science, University of Toronto, Canada|http://www.dgp.toronto.edu/~hertzman/|Learning Human Pose and Motion Models for Animation|none|hertzmann.txt|60|hertzmann.ppt
+urtasun|Raquel Urtasun|Computer Vision Laboratory, EPFL, Switzerland|http://cvlab.epfl.ch/~rurtasun/|Gaussian Processes for Monocular 3D People tracking||urtasun.txt|30|urtasun.html
+coffee2||||Coffee Break|||30
+owilliams|Oliver Williams|Microsoft Research, Cambridge, U.K.||Gaussian Process Implicit Surfaces|owilliams.pdf|owilliams.txt|30|owilliams.pdf
+pedersen|Kim S. Pedersen|The Image Group, IT University of Copenhagen, Denmark|http://www.itu.dk/~kimstp/|Minimum Likelihood Image Feature and Scale Detection Based on the Brownian Image Model|pedersen.pdf|pedersen.txt|30|pedersen.ppt
+lunch2||||Lunch Break|none||60
+sale|Tony Sale|Bletchley Park|http://www.codesandciphers.org.uk/aescv.htm|Demonstration of the Colossus Mark II Computer|||30
+ferris|Brian Ferris|Department of Computer Science and Engineering, University of Washington, U.S.A.|http://www.cs.washington.edu/homes/bdferris/|Wifi Localization with Gaussian Processes|none|ferris.txt|30|ferris.pdf
+engel|Yaakov Engel|Department of Computing Science, University of Alberta, Canada|http://www.cs.ualberta.ca/~yaki/|Learning to Control an Octopus Arm with Gaussian Process Temporal Difference Methods|none|engel.txt|30|engel.pdf
+archambeau|Cedric Archambeau|School of Electronics and Computer Science, University of Southampton, U.K.|http://www.ecs.soton.ac.uk/people/ca|Gaussian Process Approximations of Stochastic Differential Equations|archambeau.pdf|archambeau.txt|30|archambeau.pdf
+tea2||||Tea Break|none||30
+discussion2|Discussion Panel||http://www.dcs.shef.ac.uk/ml/gpip/discussionpanel.html|Discussion Time|none||60|discussion2.html
+day|2|17:30
+coach4||||Coach back to hotels and to Milton Keynes and Bletchley Railway Stations.|||15

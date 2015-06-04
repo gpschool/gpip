@@ -1,0 +1,10 @@
+
+Connection to standard neural networks
+
+Multi-layer perceptron with regularization
+
+Gaussian process
+
+
+
+

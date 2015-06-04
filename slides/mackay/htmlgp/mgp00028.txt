@@ -1,0 +1,8 @@
+
+Choosing covariance functions
+
+Can think about your prior beliefs
+Example: linear regression
+
+
+

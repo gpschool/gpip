@@ -1,0 +1,3 @@
+Estimating the location of a mobile device from wireless signal  strength is an interesting research problem, especially given the  complexity of signal propagation through space in the presence of  obstacles such as buildings, walls, or people.  Gaussian processes  have already been used to solve such signal strength localization  problems.  We extend this work to indoor WiFi localization and  present novel kernel functions which increase the accuracy of the  Gaussian process model, especially when faced with sparse training  data.  We additionally present preliminary results of simultaneous  mapping and localization using Gaussian process latent variable modeling. 
+
+<p>Joint work with Dieter Fox.

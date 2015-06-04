@@ -1,0 +1,32 @@
+<!-- footer -->
+
+<body>
+ 		
+ 		<!-- Footer -->
+  		<table id="footer" summary="Copyright information and footer links">
+    		<tr>
+
+	  			<td>&nbsp;&copy; 2006&nbsp;&nbsp;The Department of Computer Science @ UOS</td>
+
+	  			<td class="footerLinks">
+		  			<!-- footer links -->
+		  			<a href="http://www.dcs.shef.ac.uk/ml/gpip/" title="Access Key: 1">Main Page</a> | 
+		  			<a href="mailto:gpip@dcs.shef.ac.uk?subject=Site Feedback" accesskey="9" title="Access Key: 9">Feedback</a> | 
+		  			<a href="http://www.shef.ac.uk/privacy/">Privacy</a> | 
+		  			<a href="http://www.shef.ac.uk/foi/"><abbr title="Freedom of Information">FOI</abbr></a> | 
+		  			<a href="http://www.shef.ac.uk/accessibility/" accesskey="0" title="Access Key: 0">Accessibility</a>&nbsp; 
+		  			<!-- // footer links -->
+
+	  			</td>
+    		</tr>
+  		</table>
+  
+		<!-- address -->
+		<address id="address">
+			Regent Court, 211 Portobello Street, Sheffield, S1 4DP
+		</address>
+		<!-- // address -->
+
+<!-- // Footer -->
+
+ 	</body>

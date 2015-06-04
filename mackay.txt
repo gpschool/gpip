@@ -1,0 +1,2 @@
+"How on earth can a plain old Gaussian distribution 
+	be useful for sophisticated regression and machine learning tasks?"

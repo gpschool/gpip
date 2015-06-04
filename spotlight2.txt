@@ -1,0 +1,12 @@
+<b><a href="./abstract/fyfe.pdf">Gaussian Processes for Principal Component Analysis</a></b>
+<br>[<a href="./slides/fyfe.ppt">slides</a>]
+<br>Colin Fyfe, <i>University of Paisley, U.K.</i>
+
+<p><b><a href="./abstract/guiza.pdf">Gaussian Processes for Prediction in Intensive Care</a></b>
+<br>[<a href="./slides/guiza.pdf">slides</a>]
+<br>Fabian Guiza, Jan Ramon and Hendrik Blockeel, <i>Department of Computer Science, K. U. Leuven, Belgium</i>
+
+<p><b><a href="./abstract/dolia.pdf">Gaussian Processes for Active Sensor Management</a></b>
+<br>[<a href="./slides/dolia.ppt">slides</a>]
+<br>Alexander N. Dolia, Chris Harris, John Shawe-Taylor, <i>University of Southampton, U.K. </i> and Tijl De Bie, <i>OKP Research Group, K. U. Leuven, Belgium</i>
+

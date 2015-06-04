@@ -1,0 +1,12 @@
+Many applications in computer vision and computer graphics require the
+definition of curves and surfaces. Implicit surfaces are a popular
+choice for this because they are smooth, can be appropriately
+constrained by known geometry, and require no special treatment for
+topology changes. In this paper we use Gaussian processes for this and
+derive a covariance function  equivalent to the thin plate spline
+regularizer which has desirable properties for shape modelling. We
+demonstrate our approach for both 2D curves and 3D surfaces. The benefit
+of using a Gaussian process for this is the meaningful probabilistic
+representation of the function.
+
+<p>Joint work with Andrew Fitzgibbon.

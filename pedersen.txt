@@ -1,0 +1,9 @@
+We present a novel approach to image feature and scale detection based
+on the fractional Brownian image model in which images are
+realisations of a Gaussian random process on the plane. Image features
+are points of interest usually sparsely distributed in images. We
+propose to detect such points and their intrinsic scale by detecting
+points in scale-space that locally minimises the likelihood under the
+model.
+
+<p>Joint work with Peter van Dorst and Marco Loog.

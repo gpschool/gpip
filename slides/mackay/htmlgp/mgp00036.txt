@@ -1,0 +1,13 @@
+
+Gaussian Quiz solutions
+
+Detailed, colourful solutions and comments are in
+`The Humble Gaussian distribution' (12 pages)
+ - the top link on:
+
+www.inference.phy.cam.ac.uk/mackay
+
+
+
+
+

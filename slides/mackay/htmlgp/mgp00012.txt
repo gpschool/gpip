@@ -1,0 +1,7 @@
+
+Inference
+
+
+Posterior, conditional on ,
+is Gaussian with mean that depends on  
+and 

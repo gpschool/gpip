@@ -1,0 +1,10 @@
+
+Nonlinear regression with neural networks
+
+
+Multi-layer perceptron with regularization (weight decay)
+
+Bayesian complexity control
+
+Automatic relevance determination
+

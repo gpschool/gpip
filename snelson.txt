@@ -1,0 +1,10 @@
+I will briefly describe our work on the sparse pseudo-input Gaussian
+process (SPGP), where we refine the sparse approximation by selecting
+`pseudo-inputs' using gradient methods. I will then describe several
+extensions to this framework. Firstly we incorporate supervised
+dimensionality reduction to deal with high dimensional input
+spaces. Secondly we develop a version of the SPGP that can handle
+input-dependent noise. These extensions allow GP methods to be applied to
+a wider variety of modelling tasks than previously possible.
+
+<p>Joint work with Zoubin Ghahramani.

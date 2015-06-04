@@ -1,0 +1,47 @@
+
+<center><img src="./2006_04_28_124524_web.jpg" width="50%"></center>
+<hr>
+
+<h3> Workshop Now Over</h3>
+
+Post-proceedings deadline for submissions is 15th September 2006. See <a
+href="./submissions.html">this page for details</a>.
+
+The slides presented at the workshop are available from the <a
+href="./schedule.html">schedule page</a>.
+
+<h3> Breaking News </h3>
+
+<p><b>Note: Accommodation in Milton Keynes is filling up fast due to
+rock concerts and the British Grand Prix.</b>
+
+<p>There has been a recent upsurge in interest
+in Gaussian processes for solving a variety of machine learning
+problems. Simultaneously there have been recent rapid developments in
+efficient approximation techniques for Gaussian processes and novel
+unifying theories of existing approximation techniques.
+
+<p>This workshop will bring experts in Gaussian processes together
+with individuals who are using Gaussian processes at the forefront of
+research in their fields. We will start with a set of talks that will
+relate the latest developments in Gaussian processes (speakers include
+Chris Williams, Carl Rasmussen, David MacKay and Ed Snelson) while the
+second portion of talks will discuss application fields where Gaussian
+processes are being applied as state-of-the-art technologies: Robotics,
+Graphics and Vision (speakers include Brian Ferris, Aaron Hertzmann and
+Raquel Urtasun).
+
+<p>We expect attendees at the workshop who are expert in Gaussian
+processes as well as attendees who are interested in finding out about
+Gaussian processes. The workshop is expected to be an ideal entry
+point to a researcher interested in using these models, but at the
+same time, by bringing together acknowledged experts in Gaussian
+processes with acknowledged experts in the application areas mentioned
+above we expect to drive forward research in novel directions.
+
+<p>We invite submissions to the workshop of <b>no more than four
+pages</b> in length using the LaTeX article class file in one column
+with standard margin settings and 11pt font. The submission deadline
+is Friday May 19th. 
+
+<p>Registration for the workshop will close on <b>Friday 26th May</b>.

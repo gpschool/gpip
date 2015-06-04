@@ -1,0 +1,16 @@
+
+Gaussian processes compared with state-of-the-art nonlinear parametric models
+
+Easy to use
+predictions correspond to model with infinite number of parameters
+Equally good, or better, on a large range of datasets
+GPs have many standard regression methods as special cases
+Radial basis functions
+Splines
+Feed-forward neural networks with one hidden layer
+
+Problems:
+Ill-conditioned
+N^3 complexity is bad news for N>1000
+approximate methods
+

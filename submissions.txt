@@ -1,0 +1,7 @@
+
+
+<p>We invite submissions to the workshop post-proceedings. The submission deadline is September 15th. The proceedings is the first in a new volume of proceedings associated with JMLR and will be title Workshops in Machine Learning, No 1: Gaussian Processes in Practice.
+
+<p>Submissions are <emph>not</emph> limited to material presented at the workshop, any papers on Gaussian processes will be considered. Ideally the work should be inspired by the workshop or will reflect some of the themes presented on the day.
+
+<p>Submissions should be sent as postscript or PDF attachments to <font face="courier">gpip@dcs.shef.ac.uk</font> by Midnight GMT on Friday 15th September 2006.

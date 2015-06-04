@@ -1,0 +1,15 @@
+<b><a href="./abstract/franz.pdf">How to choose the covariance for Gaussian process regression independently of the basis</a></b>
+<br>[<a href="./slides/franz.pdf">slides</a>]
+<br>Matthias O. Franz and Peter V. Gehler, <i>MPI Tuebingen, Germany</i>
+
+<p><b><a href="./abstract/sun.pdf">An Exchanging-based Refinement to Sparse Gaussian Process Regression</a></b>
+<br>[<a href="./slides/sun.pdf">poster</a>]
+<br>Ping Sun and Xin Yao, <i>School of Computer Science, University of Birmingham, U.K.</i>
+
+<p><b><a href="./abstract/jung.pdf">Learning RoboCup-Keepaway with Kernels</a></b>
+<br>[<a href="./slides/jung.pdf">slides</a>]
+<br>Tobias Jung and Daniel Polani, <i>University of Mainz, Germany</i> and <i>University of Hertfordshire, U.K.</i>
+
+<p><b><a href="./abstract/vehtari.pdf">Sparse Log Gaussian Processes via MCMC for Spatial Epidemiology</a></b>
+<br>[<a href="./slides/vanhatalo.pdf">slides</a>]
+<br>Aki Vehtari and Jarno Vanhatalo, <i>Helsinki University of Technology, Finland</i>

@@ -1,0 +1,12 @@
+Complex gene regulatory mechanisms ensure the proper functioning of
+biological cells. New high-throughput experimental techniques, such as
+microarrays, provide a snapshot of gene expression levels of thousands
+of genes at the same time. If repeated on a sample of synchronized
+cells, time-series profiles of gene activity can be obtained. The aim
+is to reconstruct the complex gene regulatory network underlying these
+profiles. Genes often influence each other in a nonlinear fashion and
+with intricate interaction patterns. Linear models are often unsuited
+to capture such relationships. Gaussian processes, on the other hand,
+are ideal for representing nonlinear relationships. A particular
+attraction is the automatic relevance determination effect, removing
+unused inputs and resulting in sparse gene networks.

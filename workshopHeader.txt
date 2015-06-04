@@ -1,0 +1,38 @@
+<body> 		<!-- header -->
+		<!-- header -->
+		<div>
+ 		<div id="header">
+
+	        <!-- // page heading start -->
+			<div id="headerTitle"> 
+			<h1 id="pageTitle">Gaussian Processes in Practice Workshop</h1>
+		</div>
+
+		  <!-- // page heading end -->
+
+ 
+		</div>
+ 		<!-- call browser check script -->
+		<script type="text/javascript" language="JavaScript" src="http://www.shef.ac.uk/sheffield/road/Classic/article/0/shared/js/oldbrowser.js"></script>
+		<!-- global navigation -->
+		<div id="globalNavigation"> 
+ 		<!-- global navigation links -->
+        	<a href="#content"><img src="http://www.shef.ac.uk/sheffield/road/Classic/article/0/shared/images/spacer.gif" alt="skip to content" width="1" height="1" /></a> <img src="http://www.dcs.shef.ac.uk/sheffield/road/Classic/article/0/shared/images/spacer.gif" alt=" " width="1" height="1" />
+
+			<span><a href="http://www.dcs.shef.ac.uk/ml/gpip/" accesskey="1" title="Access Key: 1">Main Page</a> |</span>
+			<span><a href="http://www.dcs.shef.ac.uk/ml/gpip/schedule.html" accesskey="s" title="Access Key: s">Schedule</a> |</span>
+			<span><a href="http://www.dcs.shef.ac.uk/ml/gpip/accommodation.html" accesskey="a" title="Access Key: a">Accommodation</a> |</span>
+			<span><a href="http://www.dcs.shef.ac.uk/ml/gpip/gettingthere.html">Getting There</a> |</span>
+
+			<span><a href="http://ext.dcs.shef.ac.uk/~u0015/cgi-bin/workshop/registerWorkshop.cgi?workshop=gpip">Registration</a> |</span>
+
+			<span><a href="http://www.dcs.shef.ac.uk/ml/gpip/submissions.html">Submit Paper</a> |</span>
+		
+			<span><a href="mailto:gpip@dcs.shef.ac.uk?subject=GPIP Workshop" accesskey="7" title="Access Key: 7">Contact</a> </span> 
+<!--			<span>| <a href="http://muse.shef.ac.uk/" accesskey="m" title="Access Key: M">Log into MUSE</a></span>-->
+  		<!-- // global navigation links -->
+		</div>
+		<!-- breadcrumbs end -->
+ 		<!-- Local Content -->
+		</div>
+	</body>

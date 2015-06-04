@@ -1,0 +1,12 @@
+
+Emulate infinite neural networks
+
+
+
+                       without biases
+
+
+       with biases           
+
+
+

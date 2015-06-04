@@ -1,0 +1,14 @@
+We advocate the use of Gaussian Processes (GPs) to learn prior models of human
+pose and motion for 3D people tracking. The Gaussian Process Latent variable
+model (GPLVM) provides a low-dimensional embedding of the human pose, and
+defines a density function that gives higher probability to poses close to the
+training data. The Gaussian Process Dynamical Model (GPDM) provides also a
+complex dynamical model in terms of another GP. With the use of Bayesian model
+averaging both GPLVM and GPDM can be learned from relatively small amounts of
+training data, and they generalize gracefully to motions outside the training
+set. We show that such priors are effective for tracking a range of human
+walking styles, despite weak and noisy image measurements and a very simple
+image likelihood. Tracking is formulated in terms of a MAP estimator on short
+sequences of poses within a sliding temporal window.
+
+<p>Joint work with Jack Wang, David Fleet, Aaron Hertzmann and Pascal Fua

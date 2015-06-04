@@ -1,0 +1,5 @@
+# This file contains names of organisers of the workshop
+# NAME|INSTITUTE|HOMEPAGE
+Neil D. Lawrence|Department of Comptuer Science, University of Sheffield|http://www.dcs.shef.ac.uk/~neil/
+Joaquin Quiñonero Candela|Department of Electrical Engineering and Computer Science, Technical University of Berlin|http://cs.tu-berlin.de/~joaquin
+Anton Schwaighofer|Intelligent Data Analysis Group (IDA), Fraunhofer FIRST|http://ida.first.fraunhofer.de/~anton/

@@ -1,0 +1,18 @@
+
+Gaussian quiz
+
+1. Assuming the variables in H1 have a joint Gaussian distribution,
+ which of the following could be the covariance matrix?
+
+2.  which of the matrices could be the inverse covariance matrix?
+
+3. Now H2's variables: which of the matrices could be the covariance matrix?
+
+4.  which of the matrices could be the inverse covariance matrix?
+
+
+
+
+
+
+

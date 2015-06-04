@@ -1,0 +1,2 @@
+# This file contains names of publications to be listed for the workshop.
+Background Reading|Rasmussen:book06|Quinonero:unifying05|Engel:octopus05|Kuss:assessing05|Urtasun:priors05|Grochow:styleik04|Williams:prediction98|MacKay:gpintroduction98

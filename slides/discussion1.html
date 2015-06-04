@@ -1,0 +1,175 @@
+<head>
+<style type="text/css">@import url(http://www.shef.ac.uk/sheffield/road/Classic/article/0/shared/css/general.css); </style>
+<style type="text/css">@import url(http://www.shef.ac.uk/sheffield/road/Classic/article/0/shared/css/homepage.css);</style>
+<style>hr { height: 1px; color: #9C9C9C; width: 100%; }</style>
+</head><body> 		<!-- header -->
+		<!-- header -->
+		<div>
+ 		<div id="header">
+
+	        <!-- // page heading start -->
+			<div id="headerTitle"> 
+			<h1 id="pageTitle">Gaussian Processes in Practice Workshop</h1>
+		</div>
+
+		  <!-- // page heading end -->
+
+ 
+		</div>
+ 		<!-- call browser check script -->
+		<script type="text/javascript" language="JavaScript" src="http://www.shef.ac.uk/sheffield/road/Classic/article/0/shared/js/oldbrowser.js"></script>
+		<!-- global navigation -->
+		<div id="globalNavigation"> 
+ 		<!-- global navigation links -->
+        	<a href="#content"><img src="http://www.shef.ac.uk/sheffield/road/Classic/article/0/shared/images/spacer.gif" alt="skip to content" width="1" height="1" /></a> <img src="http://www.dcs.shef.ac.uk/sheffield/road/Classic/article/0/shared/images/spacer.gif" alt=" " width="1" height="1" />
+
+			<span><a href="http://www.dcs.shef.ac.uk/ml/gpip/" accesskey="1" title="Access Key: 1">Main Page</a> |</span>
+			<span><a href="http://www.dcs.shef.ac.uk/ml/gpip/schedule.html" accesskey="s" title="Access Key: s">Schedule</a> |</span>
+			<span><a href="http://www.dcs.shef.ac.uk/ml/gpip/accommodation.html" accesskey="a" title="Access Key: a">Accommodation</a> |</span>
+			<span><a href="http://www.dcs.shef.ac.uk/ml/gpip/gettingthere.html">Getting There</a> |</span>
+
+			<span><a href="http://ext.dcs.shef.ac.uk/~u0015/cgi-bin/workshop/registerWorkshop.cgi?workshop=gpip">Registration</a> |</span>
+
+			<span><a href="http://www.dcs.shef.ac.uk/ml/gpip/submissions.html">Submit Paper</a> |</span>
+		
+			<span><a href="mailto:gpip@dcs.shef.ac.uk?subject=GPIP Workshop" accesskey="7" title="Access Key: 7">Contact</a> </span> 
+<!--			<span>| <a href="http://muse.shef.ac.uk/" accesskey="m" title="Access Key: M">Log into MUSE</a></span>-->
+  		<!-- // global navigation links -->
+		</div>
+		<!-- breadcrumbs end -->
+ 		<!-- Local Content -->
+		</div>
+	</body>
+<head><title>GPIP Workshop: First Discussion Session</title>
+</head>
+<body>
+<h3>First Discussion Session</h3>
+
+Phil Torr :What do you do when the Covariance matrix is rank deficient?
+
+<p>Carl: Mathematically a covariance function is positive definite, but mathematically it may have eigenvalues close to zero, the problem arises in noise-free situations. The usual trick is to add 10^-6 to the diagonal of the covariance data, which implicitly is adding noise of standard deviation of 10^-3. In practice this seems to work.
+
+<p>Chris: Said that if it is genuinely a degenerate Gaussian process, then maybe you should be working in the weightspace view point.
+
+<p>Yaakov: suggested using one of the sparse approaches (which are implicitly low rank) and 'inducing variables' until you hit the right rank.
+
+<p>Carl: Mentioned that if you repeat an input then you get a zero eigenvalue staright away however in this context there must be no noise.
+
+<p>Anton: Mentioned that when computing for EP and optimising hyperparameters problems arose. 
+
+<p>Carl said that if the noise goes to small values the ratio of the largest to smallest eigenvalues gets too big and this is the key problem. 
+
+<p>Phil: asked if two points are the same is the only way of having a degenerate kernel.
+
+<p>Dan said in spatial statistics it is well known that two points together lead to difficulties and you have to add noise.
+
+<p>Yaakov: wanted to know if he is doing regression with true noise covariance a and he has GP with noise variance b. Can anything be said about the convergence of the Gaussian process to the data.
+
+<p>Chris's naïve thoughts are that you can use the equivalent kernel analysis, in this you can obtain an analytic form for the weighting function which is dependent on noise level. This becomes close to a delta function as the data increases. Given this analysis Chris expects it would converge, but you get a sub-optimal rate of convergence. 
+
+<p>Yaakov said that he was actually interested in noise with temporal structure, so you have a full covariance for representing it. 
+
+<p>David said ... so you are splitting the situation into signal and noise in the kernel functions ... and what happens if you have the colour spectrum of the noise covariance wrong. David said he thought you could have the same normal bland convergence analysis like those you get for neural networks. But the rate of convergence towards the truth can be very bad. 
+
+<p>Yaakov gave an example of exchanging the noise and signal kernels, then it would be different.
+
+<p>David said the bland result depends on the family of kernels you try. If the underlying basis functions are infinite and smooth ... then it will work, and by switching the noise and the signal, you are not using smooth kernel functions. 
+
+<p>David said he thought that the convergence of the system was not the important practical point, but Yaakov thought wanted that reassurance that it would converge.
+
+<p>Dan pointed out that if the model was wrong then the inference would be wrong and it was important to specify the correct covariance. 
+
+<p>Yaakov felt it was an important issue for when the model is mis-specified.
+
+<p>Roger felt you could do this through a eigendecomposition of the kernel.
+
+<p>David felt that the more important point was that in general the noise would typically be non-Gaussian and we should worry more about that point. 
+
+<p>Yaakov: saw this as an orthogonal issue.
+
+<p>Carl: felt that you couldn't answer this question because the model could be very wrong. 
+
+<p>Ed said that he felt Peter Sollich computed some of these rates, but Chris thought that these were for misspecified kernels not noise models. 
+
+<p>Andrew Stoddart asked what are the big problems facing the community at the moment. 
+
+<p>David started a slide show. 
+
+<p>He had a series of challenges:
+
+<h3>Efficient Methods</h3>
+
+<p>He thought that a challenge would be to sample one function from a prior with many data points and get the inference for that down to N^2 
+
+<p>With sharing independent sets of samples from the prior (12 independent N-component samples) can we learn more.
+
+<p>Manfred wondered why it was a sensible thing to do, I missed the answer. 
+
+<p>Roger felt that it would be sensible to look at Stationary kernels as a first case. Chris said that you could do this on Grids for spatial kernels. 
+
+<p>Manfred asked if it depended on the input dimensionality, Chris said it would, and David said we should agree on the dimension. 
+
+<p>Anton mentioned that there was often a problem of multi-modality. David had said that this wasn't a big issue, and Anton wanted to know how you resolve the problem.
+
+<p>David said that a lot of it is fiddling with priors ... to think carefully what the length scales in an ARD kernel should be. If the length scale could be really short in multiple dimensions then it would be impossible to predict anything, so he felt that length scales should be longer. David's experience was that on real problems there weren't big problems. 
+
+<p>Carl said that multi-modality was a good thing for complicated data sets, and that there might be many sensible explanations for a data set.
+
+<p>Pashmeet said that the inducing points lead to multi-modality, and that there is a trade off between increasing inducing points numbers affect multi-modality.
+
+<p>David said that there may be an analogy with neural networks, that when you increased the number of nodes in a neural network the modes became interconnected, and Hamiltonian (hybrid) Monte-Carlo would resolve the issue.
+
+<p>Dan said that you should only use more complicated models in the covariance function then this should be on the 
+basis of understanding, and there should be sensible priors for these models. If you can't say anything about the parameters you are adding you shouldn't be adding them.  
+
+<p>Rod asked about multiple output regression cases, how do you deal with multiple correlated outputs.
+
+<p>Dan said that in atmospheric science you could construct kernels which incorporate that knowledge and the correlations between outputs emerges naturally. But felt that this was a difficult challenge when you didn't have this information.
+
+<p>Guido wanted to know about the eigenfunction approach ... certain kernel, certain probability on the inputs ... can the eigenfuctions give you insight into the model that you choose ... I believe the eigenfunctions should be of this form, so what should the kernel be. 
+
+<p>Chris said, that certainly it was true if you had different families of covariance functions you could fit them to the data. If you had a lot of draws from something that you wanted to model you could build a covariance matrix of those draws and compute the eigenfunctions of that, then you could find out issues such as non-stationarity from the data. He felt that atmospherical-geoscientists look at this sort of analysis.
+
+<p>Carl wanted to come back to the point that we should use covariance functions with more parameters. He said that he didn't subscribe to the point of view that you would always end up with connected modes. Carl said that he would explore the space of models by adding e.g. non-Gaussianity, that you might not know these things up front.
+
+<p>Manfred asked how much David thought non-Gaussian situations played a role, David said it was an impossible question to answer ...
+
+<p>But David said he was an eigenfunction sceptic because if you change p(x) then the eigenfunctions change, but the predictions don't change in practice. So he felt that it was meaningless. David suggested looking at his web-page to see a rant about why eigenfunction analysis are not a good thing ... Roger said except for answering Yaakov's question ...
+
+<p>Chris responded by saying that he thought the most interesting question was design of kernels for given problems, but then the other area of interest was large data. 
+
+<br>
+<br>
+
+<!-- footer -->
+
+<body>
+ 		
+ 		<!-- Footer -->
+  		<table id="footer" summary="Copyright information and footer links">
+    		<tr>
+
+	  			<td>&nbsp;&copy; 2006&nbsp;&nbsp;The Department of Computer Science @ UOS</td>
+
+	  			<td class="footerLinks">
+		  			<!-- footer links -->
+		  			<a href="http://www.dcs.shef.ac.uk/ml/gpip/" title="Access Key: 1">Main Page</a> | 
+		  			<a href="mailto:gpip@dcs.shef.ac.uk?subject=Site Feedback" accesskey="9" title="Access Key: 9">Feedback</a> | 
+		  			<a href="http://www.shef.ac.uk/privacy/">Privacy</a> | 
+		  			<a href="http://www.shef.ac.uk/foi/"><abbr title="Freedom of Information">FOI</abbr></a> | 
+		  			<a href="http://www.shef.ac.uk/accessibility/" accesskey="0" title="Access Key: 0">Accessibility</a>&nbsp; 
+		  			<!-- // footer links -->
+
+	  			</td>
+    		</tr>
+  		</table>
+  
+		<!-- address -->
+		<address id="address">
+			Regent Court, 211 Portobello Street, Sheffield, S1 4DP
+		</address>
+		<!-- // address -->
+
+<!-- // Footer -->
+
+ 	</body>
