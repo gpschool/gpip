@@ -1,0 +1,64 @@
+# Site settings
+title: Gaussian Processes in Practice
+author:
+  name: Neil D. Lawrence
+  email: 
+description: > # this means to ignore newlines until "baseurl:"
+  Gaussian Processes in Practice was a gathering of Gaussian process practitioners at Bletchley Park in the UK.
+baseurl: "/gpip" # the subpath of your site, e.g. /blog/
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+style: gpss
+
+url: http://gpss.cc # the base hostname & protocol for your site
+twitter_username: datascienceshef
+github_username:  gpschool
+facebook_page: gaussianprocesssummerschool
+
+ghub:
+  edit: true
+  repository: gpip
+
+conference:
+  draft: false # set to True if the programme is draft only.
+  image: ./2006_04_28_124524_web.jpg
+  hide_tentative: true
+  proceedings:
+    url: http://proceedings.mlr.press/v1/
+    show: true
+  logo: gpss-logo.svg
+  name: Gaussian Processes in Practice
+  styling: Workshop on
+  short_name: GPIP
+  full_name: Gaussian Processes in Practice
+  venue: Bletchley Park
+  location: Bletchley, UK
+  dates:
+  - 2006-06-12
+  - 2006-06-13
+  chairs:
+  - type: Organizers
+    people:
+    - family: Lawrence
+      given: Neil D.
+      institute: The University of Sheffield
+      url: http://inverseprobability.com
+    - family: Quinonero Candela
+      given: Joaquin
+      institute: Department of Electrical Engineering and Computer Science, Technical University of Berlin
+      url: http://cs.tu-berlin.de/~joaquin
+    - family: Schwaighofer
+      given: Anton
+      institute: Intelligent Data Analysis Group (IDA), Fraunhofer FIRST
+      url: http://ida.first.fraunhofer.de/~anton/
+  sponsors:
+  - name: EU FP6 PASCAL Network of Excellence
+    url: https://www.k4all.org/project/25/
+analytics:
+  google:
+    tracking_id: UA-62991754-1
+# Build settings
+markdown: kramdown
