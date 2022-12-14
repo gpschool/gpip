@@ -10,10 +10,10 @@ plugins:
 - jekyll-feed
 - jekyll-seo-tag
 - jekyll-remote-theme
-remote_theme: lawrennd/proceedings
+remote_theme: gpschool/jekyll-theme
 style: gpss
 
-url: http://gpss.cc # the base hostname & protocol for your site
+url: https://gpss.cc # the base hostname & protocol for your site
 twitter_username: datascienceshef
 github_username:  gpschool
 facebook_page: gaussianprocesssummerschool
@@ -27,7 +27,7 @@ conference:
   image: ./2006_04_28_124524_web.jpg
   hide_tentative: true
   proceedings:
-    url: http://proceedings.mlr.press/v1/
+    url: https://proceedings.mlr.press/v1/
     show: true
   logo: gpss-logo.svg
   name: Gaussian Processes in Practice
@@ -45,15 +45,15 @@ conference:
     - family: Lawrence
       given: Neil D.
       institute: The University of Sheffield
-      url: http://inverseprobability.com
+      url: https://inverseprobability.com
     - family: Quinonero Candela
       given: Joaquin
       institute: Department of Electrical Engineering and Computer Science, Technical University of Berlin
-      url: http://cs.tu-berlin.de/~joaquin
+      url: https://cs.tu-berlin.de/~joaquin
     - family: Schwaighofer
       given: Anton
       institute: Intelligent Data Analysis Group (IDA), Fraunhofer FIRST
-      url: http://ida.first.fraunhofer.de/~anton/
+      url: https://ida.first.fraunhofer.de/~anton/
   sponsors:
   - name: EU FP6 PASCAL Network of Excellence
     url: https://www.k4all.org/project/25/
